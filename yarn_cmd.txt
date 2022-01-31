@@ -1,0 +1,57 @@
+# to check hadoop version
+yarn version
+
+YARN Node Commands:
+
+yarn node -help
+yarn node -list
+yarn node -status
+yarn node -states
+
+## YARN Application Commands:
+yarn application -help
+
+yarn application appId <Applciaiton ID>
+
+yarn application -appStates <States>
+
+yarn application -appTags <Tags>
+
+yarn application -appTypes <Types>
+
+yarn application components <Components Name>
+
+yarn application -decommission < Application Name>
+
+yarn application - instances<Component Instances>
+
+yarn application -list
+
+yarn application -kill <application id>
+
+yarn applicationattempt -help
+
+yarn applicationattempt -list <ApplicationID>
+
+yarn applicationattempt -status <Application Attempt ID>
+
+##YARN Container Commands:
+
+yarn container -help
+
+yarn container -list <Application Attempt ID>
+
+yarn contrainer -status <Container ID>
+
+
+##YARN Log Commands:
+
+yarn application -help
+
+yarn logs -applicationId <application ID>
+
+yarn logs -appOwner <AppOwner>
+
+yarn logs -applicationId  -containerID <Container ID>
+
+yarn logs -applicaitonID -nodeAddress <Node Address>
